@@ -5,7 +5,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'ec2-18-204-217-60.compute-1.amazonaws.com',
+      host: 'ec2-54-82-235-153.compute-1.amazonaws.com',
       key: '~/.ssh/tutorial-ec2.pem',
       ref: 'origin/master',
       repo: 'git@github.com:celerity66/tutorial.git',
